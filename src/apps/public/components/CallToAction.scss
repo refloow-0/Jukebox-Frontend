@@ -1,0 +1,17 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16rem 0 19.2rem;
+  background-color: #fff;
+  text-align: center;
+
+  &__title {
+    margin: 0 0 4.8rem;
+    font-family: 'Termina', $font-fallback;
+    font-size: 3.68rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+  }
+}

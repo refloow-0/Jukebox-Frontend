@@ -1,0 +1,39 @@
+.landing-header {
+  background: linear-gradient(90deg, var(--landing-maroon-dark), #1b1414);
+  color: #000000;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9.6rem;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19.2rem;
+    height: 4.16rem;
+    background-color: #c10808;
+    color: #222;
+    font-size: 1.52rem;
+    text-decoration: none;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 5.2rem;
+  }
+
+  &__link {
+    color: #f50909;
+    font-size: 1.52rem;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.hero {
+  position: relative;
+  min-height: 83.2rem;
+  overflow: hidden;
+  background-color: #fff;
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    padding-top: 20.8rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: 'Termina', $font-fallback;
+    font-size: 6.8rem;
+    font-weight: 900;
+    line-height: 1.25;
+    color: #000;
+  }
+
+  &__accent {
+    color: var(--landing-rust);
+  }
+
+  &__text {
+    max-width: 59.2rem;
+    margin: 0.8rem 0 0;
+    color: #6b6b6b;
+    font-size: 1.92rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+
+  &__cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 4.4rem;
+    padding: 1.12rem 5.6rem 1.12rem 4rem;
+    border: 3px solid var(--landing-maroon);
+    border-radius: 3.2rem;
+    color: var(--landing-maroon);
+    font-family: 'Termina', $font-fallback;
+    font-size: 1.36rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--landing-maroon);
+      color: #fff;
+    }
+  }
+
+  &__cta-icon {
+    position: absolute;
+    right: -1.2rem;
+    bottom: -1.76rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.52rem;
+    height: 3.52rem;
+    border-radius: 50%;
+    background-color: var(--landing-maroon);
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+  &__waves {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    max-width: 50%;
+  }
+}

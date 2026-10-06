@@ -1,0 +1,59 @@
+.landing {
+  --landing-maroon: #5a2122;
+  --landing-maroon-dark: #2e1515;
+  --landing-rust: #c8603f;
+  --landing-cyan: #cfeaf0;
+
+  font-family: 'Poppins', $font-fallback;
+  background-color: #fff;
+  color: #111;
+}
+
+.landing-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-right: 3.2rem;
+  padding-left: 3.2rem;
+}
+
+.landing-heading {
+  margin: 0;
+  font-family: 'Termina', $font-fallback;
+  font-size: 3.68rem;
+  font-weight: 600;
+  color: #000;
+
+  &--light {
+    color: #fff;
+  }
+}
+
+.landing-btn {
+  display: inline-block;
+  padding: 0.88rem 5.2rem;
+  border: 2px solid currentColor;
+  border-radius: 3.2rem;
+  background: transparent;
+  font-family: 'Termina', $font-fallback;
+  font-size: 1.28rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color $transition-duration;
+
+  &--light {
+    color: #fff;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  &--dark {
+    color: var(--landing-maroon);
+
+    &:hover {
+      background-color: var(--landing-maroon);
+      color: #fff;
+    }
+  }
+}

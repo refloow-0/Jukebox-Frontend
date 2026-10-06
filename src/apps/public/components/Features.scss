@@ -1,0 +1,60 @@
+.features {
+  padding: 11.2rem 0 12.8rem;
+  background-color: #fff;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 2.8rem;
+    margin-top: 4.8rem;
+  }
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.8rem 2rem 3.2rem;
+  border-radius: 2.4rem;
+  color: #111;
+
+  &--filled {
+    background-color: var(--landing-cyan);
+
+    .feature-card__icon {
+      background-color: #f8f8f8;
+    }
+  }
+
+  &__icon {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+  }
+
+  &__title {
+    margin: 2.8rem 0 0;
+    font-family: 'Termina', $font-fallback;
+    font-size: 2.08rem;
+    font-weight: 600;
+  }
+
+  &__text {
+    flex: 1;
+    margin: 2.4rem 0 0;
+    font-size: 1.36rem;
+    line-height: 1.6;
+  }
+
+  &__cta {
+    margin-top: 3.6rem;
+    color: inherit;
+    font-size: 1.36rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
